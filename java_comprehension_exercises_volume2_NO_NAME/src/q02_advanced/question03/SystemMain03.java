@@ -9,6 +9,10 @@ public class SystemMain03 {
 		boolean isLogin = false;
 		//TODO ここから実装する
 
+		ConsoleReader console = new ConsoleReader();
+		MemberStorage storage = new MemberStorage();
+		LoginService login = new LoginService(storage);
+
 	}
 
 }
